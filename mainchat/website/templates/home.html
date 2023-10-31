@@ -2,19 +2,19 @@
 
 {% block content %}
 
-<div class="col-md-10 offset-md-1">
-
 {% if user.is_authenticated %}
 
-    {% if records %}
+<div class="row">
 
-        {% for record in records %}
+    <div class="col-md-3">
+    {% include 'sidebar.html' %}
+    </div>
 
-            <h1>Hello, {{ record.user_name }}!</h1>
+<div>
 
-        {% endfor %}
+    <h1>Hello</h1>
 
-    {% endif %}
+</div>
 
 {% else %}
 
