@@ -1,4 +1,5 @@
 .idea/
 
+/mainchat/mainchatdb.py
+
 /mainchat/mainchat/settings.py
-mainchatdb.py
