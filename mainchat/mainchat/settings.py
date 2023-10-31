@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chatdb',
         'USER': 'root',
-        'PASSWORD': '1029384756',
+        'PASSWORD': '2341',
         'HOST': 'localhost',
         'PORT': '3306'
     }
