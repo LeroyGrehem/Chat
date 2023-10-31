@@ -1,5 +1,7 @@
 .idea/
 
 mainchat/mainchatdb.py
-
 mainchat/mainchat/settings.py
+
+client/node_modules
+
